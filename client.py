@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
-client.connect(("00:45:e2:4b:12:a4", 4))
+client.connect(("YOUR_MAC_ADDRESS", 4))
 
 try:
     while True:

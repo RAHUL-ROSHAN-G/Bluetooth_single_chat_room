@@ -4,7 +4,7 @@ import socket
 server = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
 
 #mac address for bluetooth chat room
-server.bind(("00:45:e2:4b:12:a4", 4))
+server.bind(("YOUR_MAC_ADDRESS", 4))
 
 #allow only one connection at a time
 server.listen(1)
